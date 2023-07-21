@@ -108,7 +108,7 @@ basic.forever(function () {
             # # # # .
             `)
     }
-    if (sensors.actuator_keyborad_read() == "a") {
+    if (sensors.actuator_keyborad_read() == "A") {
         basic.showLeds(`
             . # # # #
             . # . . #
@@ -117,7 +117,7 @@ basic.forever(function () {
             . # . . #
             `)
     }
-    if (sensors.actuator_keyborad_read() == "b") {
+    if (sensors.actuator_keyborad_read() == "B") {
         basic.showLeds(`
             . # # # .
             . # . . #
@@ -126,7 +126,7 @@ basic.forever(function () {
             . # # # .
             `)
     }
-    if (sensors.actuator_keyborad_read() == "c") {
+    if (sensors.actuator_keyborad_read() == "C") {
         basic.showLeds(`
             . # # # #
             . # . . .
@@ -135,7 +135,7 @@ basic.forever(function () {
             . # # # #
             `)
     }
-    if (sensors.actuator_keyborad_read() == "d") {
+    if (sensors.actuator_keyborad_read() == "D") {
         basic.showLeds(`
             . # # # .
             . # . . #
