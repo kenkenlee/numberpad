@@ -40,7 +40,7 @@
         # # # # . 
         . . . # . 
         # # # # .
-        `</field><next><block type="controls_if" id="30~1($cvm_}1(gGyVGm("><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="!~fAwtH}0plL7T4]:?=m"><field name="OP">EQ</field><value name="A"><shadow type="text"><field name="TEXT"></field></shadow><block type="actuator_keyborad_read" id="qzTT,Rv9*]w:a:El%@O$"></block></value><value name="B"><shadow type="text" id="5nvXwg3:zpo!mbt%pV5w"><field name="TEXT">6</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="K/iH~Z9/ODqLLG$|G;Ne"><field name="LEDS">`
+        `</field></block></statement><next><block type="controls_if" id="30~1($cvm_}1(gGyVGm("><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="!~fAwtH}0plL7T4]:?=m"><field name="OP">EQ</field><value name="A"><shadow type="text"><field name="TEXT"></field></shadow><block type="actuator_keyborad_read" id="qzTT,Rv9*]w:a:El%@O$"></block></value><value name="B"><shadow type="text" id="5nvXwg3:zpo!mbt%pV5w"><field name="TEXT">6</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="K/iH~Z9/ODqLLG$|G;Ne"><field name="LEDS">`
         # # # # . 
         # . . . . 
         # # # # . 
@@ -94,4 +94,4 @@
         . # . . # 
         . # . . # 
         . # # # .
-        `</field></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
+        `</field></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>

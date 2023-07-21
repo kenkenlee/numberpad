@@ -62,86 +62,86 @@ basic.forever(function () {
             . . . # .
             # # # # .
             `)
-        if (sensors.actuator_keyborad_read() == "6") {
-            basic.showLeds(`
-                # # # # .
-                # . . . .
-                # # # # .
-                # . . # .
-                # # # # .
-                `)
-        }
-        if (sensors.actuator_keyborad_read() == "7") {
-            basic.showLeds(`
-                # # # # .
-                # . . # .
-                . . # # .
-                . # . . .
-                . # . . .
-                `)
-        }
-        if (sensors.actuator_keyborad_read() == "8") {
-            basic.showLeds(`
-                # # # # .
-                # . . # .
-                # # # # .
-                # . . # .
-                # # # # .
-                `)
-        }
-        if (sensors.actuator_keyborad_read() == "9") {
-            basic.showLeds(`
-                # # # # .
-                # . . # .
-                # # # # .
-                . . . # .
-                # # # # .
-                `)
-        }
-        if (sensors.actuator_keyborad_read() == "0") {
-            basic.showLeds(`
-                # # # # .
-                # . . # .
-                # . . # .
-                # . . # .
-                # # # # .
-                `)
-        }
-        if (sensors.actuator_keyborad_read() == "a") {
-            basic.showLeds(`
-                . # # # #
-                . # . . #
-                . # # # #
-                . # . . #
-                . # . . #
-                `)
-        }
-        if (sensors.actuator_keyborad_read() == "b") {
-            basic.showLeds(`
-                . # # # .
-                . # . . #
-                . # # # .
-                . # . . #
-                . # # # .
-                `)
-        }
-        if (sensors.actuator_keyborad_read() == "c") {
-            basic.showLeds(`
-                . # # # #
-                . # . . .
-                . # . . .
-                . # . . .
-                . # # # #
-                `)
-        }
-        if (sensors.actuator_keyborad_read() == "d") {
-            basic.showLeds(`
-                . # # # .
-                . # . . #
-                . # . . #
-                . # . . #
-                . # # # .
-                `)
-        }
+    }
+    if (sensors.actuator_keyborad_read() == "6") {
+        basic.showLeds(`
+            # # # # .
+            # . . . .
+            # # # # .
+            # . . # .
+            # # # # .
+            `)
+    }
+    if (sensors.actuator_keyborad_read() == "7") {
+        basic.showLeds(`
+            # # # # .
+            # . . # .
+            . . # # .
+            . # . . .
+            . # . . .
+            `)
+    }
+    if (sensors.actuator_keyborad_read() == "8") {
+        basic.showLeds(`
+            # # # # .
+            # . . # .
+            # # # # .
+            # . . # .
+            # # # # .
+            `)
+    }
+    if (sensors.actuator_keyborad_read() == "9") {
+        basic.showLeds(`
+            # # # # .
+            # . . # .
+            # # # # .
+            . . . # .
+            # # # # .
+            `)
+    }
+    if (sensors.actuator_keyborad_read() == "0") {
+        basic.showLeds(`
+            # # # # .
+            # . . # .
+            # . . # .
+            # . . # .
+            # # # # .
+            `)
+    }
+    if (sensors.actuator_keyborad_read() == "a") {
+        basic.showLeds(`
+            . # # # #
+            . # . . #
+            . # # # #
+            . # . . #
+            . # . . #
+            `)
+    }
+    if (sensors.actuator_keyborad_read() == "b") {
+        basic.showLeds(`
+            . # # # .
+            . # . . #
+            . # # # .
+            . # . . #
+            . # # # .
+            `)
+    }
+    if (sensors.actuator_keyborad_read() == "c") {
+        basic.showLeds(`
+            . # # # #
+            . # . . .
+            . # . . .
+            . # . . .
+            . # # # #
+            `)
+    }
+    if (sensors.actuator_keyborad_read() == "d") {
+        basic.showLeds(`
+            . # # # .
+            . # . . #
+            . # . . #
+            . # . . #
+            . # # # .
+            `)
     }
 })
